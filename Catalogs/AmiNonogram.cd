@@ -1,0 +1,171 @@
+; AmiNonogram.cd 1.0 catalog description file
+; $VER: AmiNonogram.catalog 1.0 (18.05.2022)
+;
+#version 1
+#language english
+;
+;***********************
+;    ERROR MESSAGES
+;***********************
+MSG_ERR_DISK_PROTECTED (//)
+AmiNonogram needs to be on a non-write protected disk to run.
+;
+MSG_ERR_NEW_DIRECTORY (//)
+Couldn't create new directory for user profiles on disk!
+;
+MSG_ERR_SAVE_PROFILE (//)
+AmiNonogram could not save your profile to disk.
+;
+MSG_ERR_CREATE_PROFILE (//)
+AmiNonogram could not create a new profile file on disk.
+;
+MSG_ERR_OUT_OF_MEMORY (//)
+Out of memory!
+;
+;***********************
+;     MENU MESSAGES
+;***********************
+MSG_MENU_GAME (//)
+Game
+;
+MSG_MENU_ABOUT (//)
+About...
+;
+MSG_MENU_ABOUT_KEY (//)
+?
+;
+MSG_MENU_ABOUT_MUI (//)
+About MUI...
+;
+MSG_MENU_QUIT (//)
+Quit
+;
+MSG_MENU_QUIT_KEY (//)
+Q
+;
+;***********************
+;     GUI MESSAGES
+;***********************
+MSG_GUI_WINDOW_TITLE_WARNING (//)
+Warning!
+;
+MSG_GUI_WINDOW_TITLE_ABOUT (//)
+About AmiNonogram
+;
+MSG_GUI_WINDOW_TITLE_CONGRATULATIONS (//)
+Congratulations!
+;
+MSG_GUI_WINDOW_TITLE_NEW_PROFILE_NAME (//)
+Enter new profile name
+;
+MSG_GUI_WINDOW_TITLE_SORRY (//)
+Sorry!
+;
+MSG_GUI_TITLE_PROFILES (//)
+Profiles
+;
+MSG_GUI_LIST_TITLE_PLAYER_NAME (//)
+\33b\33uPlayer Name
+;
+MSG_GUI_LIST_TITLE_PLAYER_SCORE (//)
+\33b\33uScore
+;
+MSG_GUI_TITLE_AVAILABLE_PACKS (//)
+Available Packs
+;
+MSG_GUI_BUTTON_NEW_PROFILE (//)
+New
+;
+MSG_GUI_BUTTON_CREATE_PROFILE (//)
+Create
+;
+MSG_GUI_BUTTON_DELETE_PROFILE (//)
+Delete
+;
+MSG_GUI_BUTTON_START (//)
+Start
+;
+MSG_GUI_BUTTON_QUIT (//)
+Quit
+;
+MSG_GUI_DISPLAY_PLAYER_NAME (//)
+Player:
+;
+MSG_GUI_DISPLAY_PLAYER_SCORE (//)
+Score:
+;
+MSG_GUI_LABEL_SIZE (//)
+Size:
+;
+MSG_GUI_CHECK_RANDOM_PACK (//)
+Pick a random pack
+;
+MSG_GUI_CHECK_RANDOM_SIZE (//)
+Pick a random size
+;
+MSG_GUI_BUTTON_PLAY (//)
+Play
+;
+MSG_GUI_BUTTON_EXIT (//)
+Exit
+;
+MSG_GUI_LABEL_SOLUTION (//)
+Solution:
+;
+MSG_GUI_BUTTON_EXIT_PUZZLE (//)
+Exit
+;
+MSG_GUI_BUTTON_NEXT_PUZZLE (//)
+Next
+;
+;***********************
+;     UI MESSAGES
+;***********************
+MSG_UI_BUTTON_YES_NO (//)
+_Yes|*_No
+;
+MSG_UI_BUTTON_OK (//)
+*_OK
+;
+MSG_UI_CODER (//)
+Programming:
+;
+MSG_UI_CONTACT (//)
+Contact:
+;
+MSG_UI_CONFIRM_PUZZLE_QUIT (//)
+\33cQuitting this puzzle will cost you \33b%ld pts\33n!\nDo you still want to quit?
+;
+MSG_UI_INFORM_PUZZLE_LOST (//)
+\33cYou've failed to solve this puzzle\n\nScore lost: %ld pts
+;
+MSG_UI_BUTTON_LOSE (//)
+*_Rats!!
+;
+MSG_UI_INFORM_PUZZLE_WIN (//)
+\33cYou have solved this puzzle!\nSolution: \33b%s\33n\nScore earned: %ld pts
+;
+MSG_UI_BUTTON_WIN (//)
+*_Hooray!
+;
+MSG_UI_ERR_PROFILE_NAME_EMPTY (//)
+Profile name cannot be empty!
+;
+MSG_UI_NO_PACKS (//)
+There are no packs to solve!\nPlease put some puzzle packs into packs directory.
+;
+MSG_UI_ALL_PACKS_SOLVED (//)
+You have solved all available puzzles! Well done!
+;
+MSG_UI_NO_SUCH_SIZE_IN_PACKS (//)
+This puzzle size could not be found in any of the packs.
+;
+MSG_UI_NO_SUCH_SIZE_IN_PACK (//)
+This pack does not contain this puzzle size.
+;
+MSG_UI_SIZE_SOLVED_IN_ALL (//)
+You have solved all puzzles of this size from all packs.
+;
+MSG_UI_SIZE_SOLVED_IN_THIS (//)
+You have solved all puzzles of this size from this pack.
+;

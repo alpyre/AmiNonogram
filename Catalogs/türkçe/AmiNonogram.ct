@@ -1,0 +1,226 @@
+## version $VER: AmiNonogram.catalog 1.0 (18.05.2022)
+## language türkçe
+## codeset 0
+;
+; AmiNonogram.cd 1.0 catalog description file
+; $VER: AmiNonogram.catalog 1.0 (18.05.2022)
+;
+;#version 1
+;#language english
+;
+;***********************
+;    ERROR MESSAGES
+;***********************
+MSG_ERR_DISK_PROTECTED
+AmiNonogram yazma korulmalý olmayan bir diskte çalýþabilir.
+; AmiNonogram needs to be on a non-write protected disk to run.
+;
+MSG_ERR_NEW_DIRECTORY
+Diskte kullanýcý profilleri için gereken dizin oluþturulamadý!
+; Couldn't create new directory for user profiles on disk!
+;
+MSG_ERR_SAVE_PROFILE
+AmiNonogram profilinizi diske kaydedemedi.
+; AmiNonogram could not save your profile to disk.
+;
+MSG_ERR_CREATE_PROFILE
+AmiNonogram diskte yeni bir profil dosyasý oluþturamadý.
+; AmiNonogram could not create a new profile file on disk.
+;
+MSG_ERR_OUT_OF_MEMORY
+Yetersiz bellek!
+; Out of memory!
+;
+;***********************
+;     MENU MESSAGES
+;***********************
+MSG_MENU_GAME
+Oyun
+; Game
+;
+MSG_MENU_ABOUT
+Hakkýnda...
+; About...
+;
+MSG_MENU_ABOUT_KEY
+?
+; ?
+;
+MSG_MENU_ABOUT_MUI
+MUI Hakkýnda...
+; About MUI...
+;
+MSG_MENU_QUIT
+Çýkýþ
+; Quit
+;
+MSG_MENU_QUIT_KEY
+Q
+; Q
+;
+;***********************
+;     GUI MESSAGES
+;***********************
+MSG_GUI_WINDOW_TITLE_WARNING
+Uyarý!
+; Warning!
+;
+MSG_GUI_WINDOW_TITLE_ABOUT
+AmiNonogram hakkýnda
+; About AmiNonogram
+;
+MSG_GUI_WINDOW_TITLE_CONGRATULATIONS
+Tebrikler!
+; Congratulations!
+;
+MSG_GUI_WINDOW_TITLE_NEW_PROFILE_NAME
+Yeni oyuncu adý girin
+; Enter new profile name
+;
+MSG_GUI_WINDOW_TITLE_SORRY
+Üzgünüm!
+; Sorry!
+;
+MSG_GUI_TITLE_PROFILES
+Profiller
+; Profiles
+;
+MSG_GUI_LIST_TITLE_PLAYER_NAME
+\33b\33uOyuncu Adý
+; \33b\33uPlayer Name
+;
+MSG_GUI_LIST_TITLE_PLAYER_SCORE
+\33b\33uSkor
+; \33b\33uScore
+;
+MSG_GUI_TITLE_AVAILABLE_PACKS
+Bulmaca paketleri
+; Available Packs
+;
+MSG_GUI_BUTTON_NEW_PROFILE
+Yeni
+; New
+;
+MSG_GUI_BUTTON_CREATE_PROFILE
+Oluþtur
+; Create
+;
+MSG_GUI_BUTTON_DELETE_PROFILE
+Sil
+; Delete
+;
+MSG_GUI_BUTTON_START
+Baþla
+; Start
+;
+MSG_GUI_BUTTON_QUIT
+Çýkýþ
+; Quit
+;
+MSG_GUI_DISPLAY_PLAYER_NAME
+Oyuncu:
+; Player:
+;
+MSG_GUI_DISPLAY_PLAYER_SCORE
+Skor:
+; Score:
+;
+MSG_GUI_LABEL_SIZE
+Boyut:
+; Size:
+;
+MSG_GUI_CHECK_RANDOM_PACK
+Rastgele bir paket seç
+; Pick a random pack
+;
+MSG_GUI_CHECK_RANDOM_SIZE
+Rastgele bir boyut seç
+; Pick a random size
+;
+MSG_GUI_BUTTON_PLAY
+Oyna
+; Play
+;
+MSG_GUI_BUTTON_EXIT
+Çýk
+; Exit
+;
+MSG_GUI_LABEL_SOLUTION
+Çözüm:
+; Solution:
+;
+MSG_GUI_BUTTON_EXIT_PUZZLE
+Çýk
+; Exit
+;
+MSG_GUI_BUTTON_NEXT_PUZZLE
+Sonraki
+; Next
+;
+;***********************
+;     UI MESSAGES
+;***********************
+MSG_UI_BUTTON_YES_NO
+_Evet|*_Hayýr
+; _Yes|*_No
+;
+MSG_UI_BUTTON_OK
+*_Tamam
+; *_OK
+;
+MSG_UI_CODER
+Programlayan:
+; Programming:
+;
+MSG_UI_CONTACT
+Ýletiþim:
+; Contact:
+;
+MSG_UI_CONFIRM_PUZZLE_QUIT
+Bu bulmacadan çýkmak size \33b%ld puan\33n kaybettirecek!\nGerçekten çýkmak istiyor musunuz?
+; \33cQuitting this puzzle will cost you \33b%ld pts\33n!\nDo you still want to quit?
+;
+MSG_UI_INFORM_PUZZLE_LOST
+\33cBu bulmacayý çözmeyi baþaramadýnýz\n\nKaybedilen puan: %ld
+; \33cYou've failed to solve this puzzle\n\nScore lost: %ld pts
+;
+MSG_UI_BUTTON_LOSE
+*_Kahretsin!!
+; *_Rats!!
+;
+MSG_UI_INFORM_PUZZLE_WIN
+\33cBu bulmacayý çözdünüz!\nÇözüm: \33b%s\33n\nKazanýlan puan: %ld
+; \33cYou have solved this puzzle!\nSolution: \33b%s\33n\nScore earned: %ld pts
+;
+MSG_UI_BUTTON_WIN
+*_Oooley!
+; *_Hooray!
+;
+MSG_UI_ERR_PROFILE_NAME_EMPTY
+Profil adý boþ býrakýlamaz!
+; Profile name cannot be empty!
+;
+MSG_UI_NO_PACKS
+Çözülebilecek bulmaca paketi yok!\nLütfen 'packs' dizinine bir iki bulmaca paketi koyun.
+; There are no packs to solve!\nPlease put some puzzle packs into packs directory.
+;
+MSG_UI_ALL_PACKS_SOLVED
+Tüm bulmacalarý çözdünüz! Aferin!
+; You have solved all available puzzles! Well done!
+;
+MSG_UI_NO_SUCH_SIZE_IN_PACKS
+Hiçbir bulmaca paketinde bu boyutta bulmaca bulunmuyor.
+; This puzzle size could not be found in any of the packs.
+;
+MSG_UI_NO_SUCH_SIZE_IN_PACK
+Bu bulmaca paketi bu boyutta bulmaca içermiyor.
+; This pack does not contain this puzzle size.
+;
+MSG_UI_SIZE_SOLVED_IN_ALL
+Tüm bulmaca paketlerinden bu boyuttaki bulmacalarý çözdünüz.
+; You have solved all puzzles of this size from all packs.
+;
+MSG_UI_SIZE_SOLVED_IN_THIS
+Bu bulmaca paketinden bu boyuttaki tüm bulmacalarý çözdünüz.
+; You have solved all puzzles of this size from this pack.
+;
