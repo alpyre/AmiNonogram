@@ -8,7 +8,7 @@ AmiNonogram is an open source Workbench Nonogram game for Amiga Computers (and v
 AmiNonogram forces the players to solve the puzzles in less than three mistakes (lives) and rewards them accordingly.
 
 ### Screenshots
-![profiles](https://hosting.photobucket.com/images/r610/Alpyre55/AmiNonogram_Profiles.gif)
+![profiles](https://hosting.photobucket.com/images/r610/Alpyre55/AmiNonogram_Profiles.gif)</br>
 ![gameplay](https://hosting.photobucket.com/images/r610/Alpyre55/AmiNonogram_GifAnim.gif)
 ![gamewin](https://hosting.photobucket.com/images/r610/Alpyre55/WinScreen.gif)
 
@@ -32,7 +32,7 @@ built should be pretty straightforward.
 
 ### Binaries
 Binaries for OS3.x, OS4.x and MorphOS will be published on Aminet (http://aminet.net/).
-Do a search for AmiNonogram.
+http://aminet.net/package/game/think/AmiNonogram
 
 ### Build
 AmiNonogram is ready to be built using the toolchains below:
