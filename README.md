@@ -22,7 +22,7 @@ AmiNonogram forces the players to solve the puzzles in less than three mistakes 
 - Puzzle packs are designed to contain thousands of puzzles.
 - Puzzles are introduced in random order.
 - Supports multiple player profiles and keeps their progress on disk.
-- Fully localizable (comes with a catalog desriptor file).
+- Fully localizable (comes with a catalog descriptor file).
 - A puzzle pack editor/creator (will be published separately in the future).
 
 ### Platforms
