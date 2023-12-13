@@ -695,7 +695,7 @@ static ULONG m_RightClickEvent(struct IClass *cl, Object *obj, Msg msg) {
 ///
 ///m_Square_Event
 #if defined(__amigaos4__) || defined(__MORPHOS__) || defined(MUI5)
-ULONG m_Square_Event(struct IClass *cl, Object *obj, Msg msg) {
+static ULONG m_Square_Event(struct IClass *cl, Object *obj, Msg msg) {
   struct cl_Data* data = INST_DATA(cl, obj);
   Object *obj_square = ((struct cl_SquareMsg*)msg)->square;
   ULONG num_Squares = data->gameBoardData->size * data->gameBoardData->size;
@@ -735,6 +735,8 @@ ULONG m_Square_Event(struct IClass *cl, Object *obj, Msg msg) {
       DoMethod(obj, MUIM_Set, MUIA_Nonogram_Complete, TRUE);
     }
   }
+
+  return 0;
 }
 #endif
 ///

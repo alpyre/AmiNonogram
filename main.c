@@ -738,7 +738,7 @@ int Main(struct Config *config)
                           {
                             case MEN_ABOUT:
                               MUI_Request(App, Win, 0,
-                                (catalog, MSG_GUI_WINDOW_TITLE_ABOUT, "About AmiNonogram"), GetCatalogStr(catalog, MSG_UI_BUTTON_OK, "*_OK"),
+                                GetCatalogStr(catalog, MSG_GUI_WINDOW_TITLE_ABOUT, "About AmiNonogram"), GetCatalogStr(catalog, MSG_UI_BUTTON_OK, "*_OK"),
                                 "AmiNonogram v" VERSIONSTRING "\n\n%s " AUTHOR "\n%s " CONTACT, GetCatalogStr(catalog, MSG_UI_CODER, "Programming:"), GetCatalogStr(catalog, MSG_UI_CONTACT, "Contact:"));
                             break;
                             case MEN_ABOUTMUI:

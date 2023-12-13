@@ -4,26 +4,26 @@
 ******************************************************************************/
 
 enum{
-	/***********************
-	     ERROR MESSAGES
-	 ***********************/
-	MSG_ERR_DISK_PROTECTED,
+  /***********************
+       ERROR MESSAGES
+   ***********************/
+  MSG_ERR_DISK_PROTECTED,
   MSG_ERR_NEW_DIRECTORY,
   MSG_ERR_SAVE_PROFILE,
   MSG_ERR_CREATE_PROFILE,
   MSG_ERR_OUT_OF_MEMORY,
-	/***********************
-	      MENU MESSAGES
-	 ***********************/
-	MSG_MENU_GAME,
-	MSG_MENU_ABOUT,
-	MSG_MENU_ABOUT_KEY,
-	MSG_MENU_ABOUT_MUI,
-	MSG_MENU_QUIT,
-	MSG_MENU_QUIT_KEY,
-	/***********************
-	      GUI MESSAGES
-	 ***********************/
+  /***********************
+        MENU MESSAGES
+   ***********************/
+  MSG_MENU_GAME,
+  MSG_MENU_ABOUT,
+  MSG_MENU_ABOUT_KEY,
+  MSG_MENU_ABOUT_MUI,
+  MSG_MENU_QUIT,
+  MSG_MENU_QUIT_KEY,
+  /***********************
+        GUI MESSAGES
+   ***********************/
   MSG_GUI_WINDOW_TITLE_WARNING,
   MSG_GUI_WINDOW_TITLE_ABOUT,
   MSG_GUI_WINDOW_TITLE_CONGRATULATIONS,
